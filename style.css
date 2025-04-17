@@ -1,0 +1,141 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    margin: auto;
+}
+
+h2 {
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    vertical-align: middle;
+    transition: background 0.3s ease-in-out;
+}
+
+.table tbody tr:hover {
+    background-color: #f0f8ff;
+}
+
+.btn-sm {
+    font-size: 0.9em;
+    padding: 6px 12px;
+    transition: all 0.3s ease;
+}
+
+.btn-sm:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+input, select, textarea {
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+.deskripsi {
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+
+input:focus, select:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+.sf{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.undone {
+    background-color: rgba(255, 0, 0, 0.268);
+    border-radius: 10px;
+    padding: 8px;
+
+}
+.done {
+    background-color: rgba(0, 128, 0, 0.288);
+    border-radius: 10px;
+    padding: 8px;
+
+}
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.pagination .page-link {
+    color: #007bff;
+    transition: background 0.3s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.table th:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button {
+    background-color: #0056b3;
+    border-radius: 5px;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.desc {
+    max-width: 250px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    display: block;
+}
+
+
