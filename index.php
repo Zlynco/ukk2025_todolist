@@ -267,7 +267,7 @@ $start = ($page - 1) * $limit;
 
 
 
-    <!-- JavaScript untuk validasi tanggal -->
+    <!-- Validasi tanggal -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             let dateInput = document.querySelector('input[name="due_date"]');
